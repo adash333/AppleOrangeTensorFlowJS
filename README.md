@@ -37,6 +37,14 @@ Run `cd example`
 
 Run `npm install`
 
+AppleOrangeTensorFlowJS\example\node_modules\@tensorflow\tfjs-node\deps\lib
+内の、
+`tensorflow.dll`
+を、
+AppleOrangeTensorFlowJS\example\node_modules\@tensorflow\tfjs-node\lib\napi-v6
+にコピー＆ペースト
+参考：https://fantashit.com/windows-error-the-specified-module-could-not-be-found-node-modules-tensorflow-tfjs-node-lib-napi-v6-tfjs-binding-node/
+
 Run `npm run predict apple.jpg` to predict.(Windowsローカル環境)   
 
 
